@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <title>Projet_fin_module</title>
+</head>
+<body>
+  <header class="fixed-top">
+    <div class="d-flex justify-content-between p-4 bg-danger">
+       <img  src="./asset/img/LOGO F blanc.png" alt="Logo" width="120" 
+        height="60">
+        <nav class="navbar navbar-expand-lg navbar-light ">
+          <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" 
+              aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarContent">
+              <ul class="navbar-nav">
+                <li class="nav-item m-2">
+                  <a href="index.html" class="btn btn-danger" role="button">Accueil</a>
+                </li>
+                <li class="nav-item m-2">
+                  <a href="A propos.html" class="btn btn-danger" role="button">À propos</a>
+                </li>
+                <li class="nav-item dropdown m-2">
+                  <a class="btn btn-danger dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Produit
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="produit.html">Homme</a></li>
+                    <li><a class="dropdown-item" href="produit.html">Femme</a></li>
+                    <li><a class="dropdown-item" href="produit.html">Enfant</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item m-2">
+                <a href="contact.html" class="btn btn-danger" role="button">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+    </div>
+  </header>
+
+  
+  <main class="container" style="margin-top: 200px;">
+    <div class="text-center py-5">
+      <h1 class="text-danger">Nos produits</h1>
+    </div>
+    
+    <div class="row justify-content-center">
+      
+      
+      <div class="col-12 col-md-6 col-lg-3 d-flex">
+        <div class="card m-4 p-0 d-flex flex-column justify-content-between w-100">
+          <img src="./asset/img/prod1.1.jpg" class="card-img-top img-fluid rounded" alt="Produit Femme">
+          <div class="card-body d-flex flex-column h-100">
+            <div>
+              <h5 class="card-title">Idoukan Taguenidift pour Femme</h5>
+              <p class="card-text">Taguenidift est bien plus qu’un modèle, c’est un symbole d’élégance et de savoir-faire féminin.</p>
+            </div>
+            
+            <div class="d-flex justify-content-between align-items-center mt-auto">
+              <h5 class="text-danger mb-0">45€</h5>
+              <a href="produit.html" class="btn btn-danger">Acheter</a>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <div class="col-12 col-md-6 col-lg-3 d-flex">
+        <div class="card m-4 p-0 d-flex flex-column justify-content-between w-100">
+          <img src="./asset/img/prodhomme.jpg" class="card-img-top img-fluid rounded" alt="Produit Homme">
+          <div class="card-body d-flex flex-column h-100">
+            <div>
+              <h5 class="card-title">Idoukan pour Homme</h5>
+              <p class="card-text">Puissance, élégance et héritage – cuir de haute qualité, fait main.</p>
+            </div>
+            
+            <div class="d-flex justify-content-between align-items-center mt-auto">
+              <h5 class="text-danger mb-0">30€</h5>
+              <a href="produit.html" class="btn btn-danger">Acheter</a>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <div class="col-12 col-md-6 col-lg-3 d-flex">
+        <div class="card m-4 p-0 d-flex flex-column justify-content-between w-100">
+          <img src="./asset/img/prodenfant.jpg" class="card-img-top img-fluid rounded" alt="Produit Femme">
+          <div class="card-body d-flex flex-column h-100">
+            <div>
+              <h5 class="card-title">Idoukan pour Enfant</h5>
+              <p class="card-text">Confort, style et tradition – cuir souple, confection artisanale</p>
+            </div>
+            
+            <div class="d-flex justify-content-between align-items-center mt-auto">
+              <h5 class="text-danger mb-0">15€</h5>
+              <a href="produit.html" class="btn btn-danger">Acheter</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h3 class="text-center p-4 text-danger">Livraison Gratuite et paiement à la livraison</h3>
+      <img class="img-fluid mb-3 mb-md-0 p-5" style="max-width: 300px; height: auto;" src="./asset/img/MADE_IN_MOROCCO [Converti].png" alt="morocco">
+  
+    </div>
+  </main>
+  
+  <footer class="bg-danger text-light text-center py-4">
+    <div class="container">
+      <p>Instagram : @idoukanmode.1</p>
+      <p>Facebook : idoukanemode</p>
+      <p>WhatsApp : +32 4 12 34 56 78</p>
+      <p>&copy; Idoukan Mode – Tous droits réservés.</p>
+    </div>
+  </footer>
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

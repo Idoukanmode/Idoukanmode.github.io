@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Projet_fin_module</title>
+</head>
+<body>
+  <header class="fixed-top">
+    <div class="d-flex justify-content-between p-4 bg-danger">
+       <img  src="./asset/img/LOGO F blanc.png alt="Logo" width="120" 
+        height="60">
+        <nav class="navbar navbar-expand-lg navbar-light ">
+          <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" 
+              aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarContent">
+              <ul class="navbar-nav">
+                <li class="nav-item m-2">
+                  <a href="index.html" class="btn btn-danger" role="button">Accueil</a>
+                </li>
+                <li class="nav-item m-2">
+                  <a href="A propos.html" class="btn btn-danger" role="button">À propos</a>
+                </li>
+                <li class="nav-item dropdown m-2">
+                  <a class="btn btn-danger dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Produit
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="produit.html">Homme</a></li>
+                    <li><a class="dropdown-item" href="produit.html">Femme</a></li>
+                    <li><a class="dropdown-item" href="produit.html">Enfant</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item m-2">
+                <a href="contact.html" class="btn btn-danger" role="button">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+    </div>
+  </header>
+
+  <main>
+    <div id="carouselIndicators" class="carousel slide" style="margin-top: 100px;">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./asset/img/banner idoukanmode.jpg" class="d-block w-100 img-fluid" alt="banner">
+        </div>
+        <div class="carousel-item">
+          <img src="./asset/img/banner3 idoukanmode.jpg" class="d-block w-100 img-fluid" alt="banner3">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <div class="container">
+      <div class="row justify-content-center p-5">
+        <h1 class="mx-auto d-flex p-4 justify-content-center text-danger">Meilleurs ventes</h1>
+          <div class="col-12 col-md-6 col-lg-3 card m-4 p-4">
+            <img src="./asset/img/prod1.1.jpg" class="d-block w-100 card-img img-fluid" alt="prod1">
+              <h3>Idoukan Taguenidift pour Femme</h3>
+              <p>Taguenidift est bien plus qu’un modèle, c’est un symbole d’élégance et de savoir-faire féminin.</p>
+              <h3>45€</h3>
+              <a href="produit.html" class="btn btn-danger">Acheter</a>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 card m-4 p-4">
+            <img src="./asset/img/prodhomme.jpg" class="d-block w-100 card-img img-fluid" alt="prodhomme">
+              <h3>Idoukan pour Homme</h3>
+              <p>Puissance, élégance et héritage – Le modèle Idoukan pour homme, en cuir de haute qualité, est entièrement fabriqué à la main.    </p>
+              <h3>30€</h3>
+              <a href="produit.html" class="btn btn-danger">Acheter</a>
+          </div>
+      </div>   
+    </div>
+  </main>
+  <footer class="bg-danger text-light text-center py-4">
+    <div class="container">
+      <p>Instagram : @idoukanmode.1</p>
+      <p>Facebook : idoukanemode</p>
+      <p>WhatsApp : +32 4 12 34 56 78</p>
+      <p>&copy; Idoukan Mode – Tous droits réservés.</p>
+    </div>
+  </footer>
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+  </script>
+      
+</body>
+</html>
